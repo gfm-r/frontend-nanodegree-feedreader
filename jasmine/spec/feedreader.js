@@ -125,15 +125,9 @@ $(function() {
                     }
                     done();
                   });
-
               }); it('the content actually changes', function(done) {
               expect(allFead1).not.toBe(allFead2);
               done();
-            });
-
-
+            }); //t('the content actually changes', function(done) {
           }); //for describe('New Feed Selection', function() {
-
-
-
       }());
